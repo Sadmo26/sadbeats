@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    line-height: 1.6;
+}
+
+li {
+    color: rgb(18, 21, 21);
+    font-size: 12px;
+    text-align: justify;
+}
+
+h1 {
+    color: rgb(14, 14, 15);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-weight: 900;
+}
+
+a {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+p {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(21, 27, 206);
+}
+
+.header {
+    background: gray;
+    padding: 20px;
+    height: auto;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: lightgray;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu a {
+    padding: 0 100px;
+    text-decoration: none;
+}
+
+.nav a {
+    margin: 50px;
+}
+
+.Part1,
+.Part2 {
+    background: gray;
+    padding: 20px;
+}
+
+table,
+td {
+    border: 5px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
