@@ -10,7 +10,7 @@ li {
 }
 
 h1 {
-    color: black;
+    color: rgba(80,203,164,255);
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
@@ -28,6 +28,7 @@ p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: justify;
     text-decoration: underline;
+    color: rgba(185,185,185,255);
 }
 
 a:hover {
@@ -35,7 +36,7 @@ a:hover {
 }
 
 .header {
-    background: gray;
+    background: whitesmoke;
     padding: 20px;
     height: auto;
 }
@@ -47,8 +48,11 @@ a:hover {
     width: 100%;
     background: lightgray;
     padding: 20px;
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
+    background-image: url("img/logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .menu a {
@@ -60,10 +64,14 @@ a:hover {
     margin: 50px;
 }
 
-.Part1,
-.Part2 {
-    background: gray;
+.Part1, .Part2 {
+    background: rgba(238,238,238,255);
     padding: 20px;
+    background-image: url("img/logo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
 }
 
 table,
