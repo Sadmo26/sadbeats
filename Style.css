@@ -53,6 +53,7 @@ a:hover {
     background-image: url("img/logo.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
+    box-sizing: border-box;
 }
 
 .menu a {
